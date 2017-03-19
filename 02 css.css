@@ -1,0 +1,23 @@
+@charset"UTF-8";
+.ly{
+	display: -webkit-flex;
+	display: flex;
+}
+.ly__item{
+	border:1px solid rgb(200,200,169);
+	background: rgb(131,175,155);
+	min-width:150px;
+	min-height:100px;
+}
+.ly--center{
+	justify-content: center;
+}
+.ly--justify{
+	justify-content: space-between;
+}
+.ly__item--fill{
+	flex-grow: 1;
+}
+.ly--middle{
+	align-items: center;
+}
